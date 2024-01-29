@@ -21,20 +21,19 @@
         <div id="qr-code">
           <img src="./img/qrcode.png" alt="QR Code" />
 
-          <!-- Caso o pedido seja confirmado.
+
           <img
             id="confirmed-icon"
             src="./img/check.svg"
             alt="Ícone de pagamento confirmado"
           />
-           -->
+          
         </div>
 
         <aside>
-          <h1>Pedido realizado!</h1>
-          <p>
-            Para pagar, selecione a opção de <strong>Pix com QR Code</strong> no
-            seu aplicativo de pagamentos e escaneie o código ao lado.
+          <h1 id="title-text" style="color: #56A92F !important;">Pedido confirmado!</h1>
+          <p id="description">
+            Tudo certo com o seu pedido. O pagamento no pix foi confirmado pelo seu banco.
           </p>
 
           <div id="purchase-value">
@@ -46,23 +45,10 @@
 
       <footer>
         <div id="expiration-time">
-          <header>
-            <small>Este QR Code expira em</small>
-            <div>
-              <img src="./img/clock.svg" alt="Ícone relógio" />
-              <span>30 minutos</span>
-            </div>
-          </header>
-
-          <span>Avisaremos quando o pagamento for confirmado</span>
-        </div>
-
-        <!-- Caso o pedido seja confirmado.
-        <div id="payment-confirmed">
           <img src="./img/currency.svg" alt="Ícone moeda" />
-          <p>Recebemos a confirmação do pagamento do seu pedido via pix!</p>
+          <span>Recebemos a confirmação do pagamento do seu pedido via pix!</span>
         </div>
-        -->
+
 
         <div id="order">
           <small>O número do seu pedido é</small>

@@ -4,7 +4,8 @@ This repository was created to be used in a Python project utilizing the Flask f
 
 ## Repository Structure
 
-- `index.html`: HTML file defining the structure of the payment visualization page.
+- `payment.html`: HTML file defining the structure of the payment visualization page.
+- `confirmed_payment.html`: HTML file defining the structure of the confirmed payment visualization page.
 - `404.html`: HTML file defining the structure of the 404 not found page.
 - `style.css`: CSS file responsible for the styling and design of the page.
 - `img/`: Folder containing images used in the project.
