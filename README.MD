@@ -13,8 +13,10 @@ This repository was created to be used in a Python project utilizing the Flask f
 ## Screenshots
 Order Payment Page
 ![Order Payment Page](/screenshots/screenshot_1.png)
+
 Confirmed Payment Page
 ![Confirmed Payment Page](/screenshots/screenshot_2.png)
+
 Payment Not Found Page
 ![Payment not found Page](/screenshots/screenshot_3.png)
 ## Contributions
