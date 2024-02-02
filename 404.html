@@ -19,59 +19,26 @@
     <main>
       <header>
         <div id="qr-code">
-          <img src="./img/qrcode.png" alt="QR Code" />
+          <img src="./img/404.png" alt="QR Code" />
 
-          <!-- Caso o pedido seja confirmado.
-          <img
-            id="confirmed-icon"
-            src="./img/check.svg"
-            alt="Ícone de pagamento confirmado"
-          />
-           -->
         </div>
 
         <aside>
-          <h1>Pedido realizado!</h1>
+          <h1>Ops, não encontramos seu pedido</h1>
           <p>
-            Para pagar, selecione a opção de <strong>Pix com QR Code</strong> no
-            seu aplicativo de pagamentos e escaneie o código ao lado.
+            Verifique se a URL está correta. Em caso de dúvidas, entre em contato com o nosso time de suporte.
           </p>
-
-          <div id="purchase-value">
-            <img src="./img/tag.svg" alt="Ícone de tag" />
-            <span>Compra de R$ <strong id="amount">287,90</strong></span>
+          <div id="div-buttons">
+            <button id="my-orders-button">
+              VER MEUS PEDIDOS
+            </button>
+            <button id="support-button">
+              FALAR COM O SUPORTE
+            </button>
           </div>
         </aside>
       </header>
 
-      <footer>
-        <div id="expiration-time">
-          <header>
-            <small>Este QR Code expira em</small>
-            <div>
-              <img src="./img/clock.svg" alt="Ícone relógio" />
-              <span>30 minutos</span>
-            </div>
-          </header>
-
-          <span>Avisaremos quando o pagamento for confirmado</span>
-        </div>
-
-        <!-- Caso o pedido seja confirmado.
-        <div id="payment-confirmed">
-          <img src="./img/currency.svg" alt="Ícone moeda" />
-          <p>Recebemos a confirmação do pagamento do seu pedido via pix!</p>
-        </div>
-        -->
-
-        <div id="order">
-          <small>O número do seu pedido é</small>
-          <div>
-            <img src="./img/basket.svg" alt="Ícone do pedido" />
-            <span>527485022</span>
-          </div>
-        </div>
-      </footer>
     </main>
   </body>
 </html>
