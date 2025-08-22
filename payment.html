@@ -67,6 +67,11 @@
         console.log('Conectado ao servidor de pagamentos');
       });
 
+      socket.on('payment-confirmed-{{ payment_id }}', function() {
+        console.log('Pagamento confirmado para o pedido: {{ payment_id }}');
+        location.reload();
+      });
+
     </script>
 
   </body>
